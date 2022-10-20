@@ -12,12 +12,9 @@ class NumeroPadre extends Component{
         })
     }
     sumarHijo = (numeroSuma) =>{
-        console.log(numeroSuma);
-        this.setState(function(anterior){
-
-            return {suma : numeroSuma + anterior.suma}
+        this.setState({
+            suma : this.state.suma + numeroSuma
         })
-        console.log(this.state.suma);
     }
 render(){
     return(
