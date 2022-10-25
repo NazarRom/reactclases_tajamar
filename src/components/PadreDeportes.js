@@ -11,7 +11,7 @@ class PadreDeportes extends Component{
     //creamos un metodo que sera llamado desde el hijo
     //donde mostraremos el favorito
     mostrarFavorito = (deporteSeleccionado) =>{
-        //Sefun recibamos el valor del hijo
+        //Segun recibamos el valor del hijo
         //lo incluimos en el state para mostarlo en la pagina
         this.setState({
             favorito: deporteSeleccionado
